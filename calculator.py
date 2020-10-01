@@ -13,18 +13,18 @@ while True:
     if which_function == "q":
         break
     elif which_function == "add":
-        print (add(num1,num2))
+        print (float(add(num1,num2)))
     elif which_function == "subtract":
-        print (subtract(num1,num2))
+        print (float(subtract(num1,num2)))
     elif which_function == "multiply":
-        print (multiply(num1,num2))
+        print (float(multiply(num1,num2))
     elif which_function == "divide":
-        print (divide(num1,num2))
+        print (float(divide(num1,num2)))
     elif which_function == "square":
-        print (square(num1))
+        print (float(square(num1)))
     elif which_function == "cube":
-        print (cube(num1))
+        print (float(cube(num1)))
     elif which_function == "power":
-        print (power(num1,num2))
+        print (float(power(num1,num2)))
     elif which_function == "mod":
-        print (mod(num1,num2))
+        print (float(mod(num1,num2)))
